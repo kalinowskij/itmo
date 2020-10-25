@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        input, select {
+            width: 300px;
+            margin-bottom: 10px;
+            background: #85a8c8;
+            color: white;
+        }
+        input[type=button] {
+            width: 400px;
+            height: 30px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+    </ul>
+</div>
+<div class="content">
+    <div>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Личные данные</legend>
+                <legend>
+                    <input type="text" required placeholder="Фамилия" minlength="3" maxlength="20">
+                    Фамилия
+                </legend>
+                <legend>
+                    <input type="text" required placeholder="Имя" minlength="3" maxlength="20">
+                    Имя
+                </legend>
+                <legend>
+                    <input type="text" required placeholder="Отчество" minlength="3" maxlength="20">
+                    Отчество
+                </legend>
+                <legend>
+                    <input type="file">
+                    Загрузить фото
+                </legend>
+            </fieldset>
+            <fieldset>
+                <legend>Работа</legend>
+                <legend>
+                    <input type="text" required placeholder="Место работы" minlength="3" maxlength="20">
+                    Место работы
+                </legend>
+                <legend>
+                    <input type="number" required placeholder="Стаж" minlength="3" maxlength="20">
+                    Стаж
+                </legend>
+                <legend>
+                    <input type="text" required placeholder="Должность" minlength="3" maxlength="20">
+                    Должность
+                </legend>
+            </fieldset>
+            <fieldset>
+                <legend>Увлечения</legend>
+                <legend>
+                    <input type="text" required placeholder="Хобби" minlength="3" maxlength="20">
+                    Хобби
+                </legend>
+                <legend>
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Нет</option>
+                    </select>
+                    Любишь читать
+                </legend>
+                <legend>
+                    <input type="color" required placeholder="Любимый цвет" minlength="3" maxlength="20">
+                    Любимый цвет
+                </legend>
+            </fieldset>
+            <input type="button" value="Сохранить">
+        </form>
+    </div>
+</div>
+</body>
+</html>

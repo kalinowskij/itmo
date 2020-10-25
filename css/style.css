@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: url("https://picsum.photos/1200/900?page=1") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 0;
+}
+
+.menu {
+    z-index: 100;
+    margin-top: 0;
+    text-align: center;
+    background: rgba(128, 168, 195, .5);
+    width: 100%;
+    position: fixed;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    background: #1f5280;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.content {
+    z-index: 10;
+    width: 96%;
+    margin-left: 2%;
+    position: absolute;
+    margin-top: 80px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    background: rgba(128, 168, 195, .9);
+    padding: 10px;
+}
