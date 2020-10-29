@@ -21,6 +21,11 @@
     color: #356b2b;
 }
 
+.article .image{
+    padding: 20px;
+    text-align: center;
+}
+
 .article .text{
     padding: 20px;
     color: #05192b;
