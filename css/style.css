@@ -32,7 +32,28 @@ body {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
 }
-
+.menu .sub-menu {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.menu .sub-menu ul{
+    display: none;
+}
+.menu:hover .sub-menu ul {
+    display: block;
+    position: absolute;
+    margin-left: -55px;
+    margin-top: 10px;
+}
+.menu .sub-menu li {
+    width: 100px;
+    display: block;
+    margin-top: 5px;
+}
+.menu .sub-menu li:hover {
+    background: #356b2b;
+}
 .content {
     z-index: 10;
     width: 96%;
