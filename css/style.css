@@ -40,7 +40,7 @@ body {
 .menu .sub-menu ul{
     display: none;
 }
-.menu:hover .sub-menu ul {
+.menu .sub-menu:hover ul {
     display: block;
     position: absolute;
     margin-left: -55px;
