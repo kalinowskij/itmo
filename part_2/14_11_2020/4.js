@@ -21,6 +21,19 @@ for (let i = 1; i <= 999999; i++){
     if(firstHalf === secondHalf){
         tickets.push(i)
         //tickets.push(registers)
+        if(
+            Number(registers[0]) === 0 &&
+            Number(registers[1]) === 1 &&
+            Number(registers[2]) === 0 &&
+            Number(registers[3]) === 1 &&
+            Number(registers[4]) === 0 &&
+            Number(registers[5]) === 0
+        ){
+            console.log("Yes")
+        }
+    if(i === 1010){
+        console.log(registers);
+    }
     }
 }
 console.log(tickets.length);
