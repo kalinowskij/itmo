@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .clock{
+            display: grid;
+            grid-template-columns: min-content min-content min-content min-content min-content;
+            font-size: 4em;
+        }
+        .traffic-light {
+            margin: 200px;
+            width: 100px;
+            height: 350px;
+            border: black solid 1px;
+            border-radius: 5px;
+            background-color: #75a5bc;
+        }
+        .traffic-light-color {
+            margin-left: 5px;
+            margin-top: 15px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: black solid 1px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div id="hours"></div>
+        <div>:</div>
+        <div id="minutes"></div>
+        <div>:</div>
+        <div id="seconds"></div>
+    </div>
+<div class="traffic-light">
+    <div class="traffic-light-color" id="traffic_light_red"></div>
+    <div class="traffic-light-color" id="traffic_light_orange"></div>
+    <div class="traffic-light-color" id="traffic_light_green"></div>
+</div>
+    <script src="1.js"></script>
+    <script src="2.js"></script>
+    <script src="3.js"></script>
+    <script src="4.js"></script>
+    <script src="5.js"></script>
+</body>
+</html>
