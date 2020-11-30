@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .same_color_box{
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+        }
+        .same_color{
+            width: 50px;
+            height: 50px;
+            border: #75a5bc solid 1px;
+        }
+        .sam_color_disable{
+            background-color: red;
+        }
+        .sam_color_enable{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+<h1>1 задание</h1>
+    <div class="same_color_box">
+        <div class="same_color sam_color_disable" id="same_color_1" onclick="giveSaveColor(event)()"></div>
+        <div class="same_color sam_color_disable" id="same_color_2" onclick="giveSaveColor(event)()"></div>
+        <div class="same_color sam_color_disable" id="same_color_3" onclick="giveSaveColor(event)()"></div>
+    </div>
+    <hr>
+    <h1>2 задание</h1>
+    <button id="increment">Нажми меня</button>
+    <hr>
+    <h1>3 задание</h1>
+    <div id="comments"></div>
+    <textarea name="" id="comment_textarea" cols="30" rows="2"></textarea>
+    <button id="comment_button">Добавить комментарий</button>
+    <hr>
+    <h1>4 задание</h1>
+    <div id="table"></div>
+    <script src="1.js"></script>
+    <script src="2.js"></script>
+    <script src="3.js"></script>
+    <script src="4.js"></script>
+    <script src="5.js"></script>
+</body>
+</html>
